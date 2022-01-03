@@ -1,0 +1,5 @@
+# 불필요
+Ballot/app/node_modules/*
+Ballot/contract/build/*
+
+
