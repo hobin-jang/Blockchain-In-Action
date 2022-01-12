@@ -1,0 +1,25 @@
+Dapp 배포
+
+1. 해당 디렉토리에 app, contract 폴더 만든다
+
+2. contract 폴더에서 truffle init 후 truffle-config.js 에서 network, compile version 등 작성
+
+3. 컨트랙트를 위한 sol 파일 넣고 truffle compile
+
+4. migration/2_deploy_contract.js 작성 후 가나슈 켜고 truffle migrate --reset
+
+5. app 디렉토리에서 npm init
+
+6. app/package.json 알맞게 수정
+
+7. app/index.js 작성
+
+8. npm install, npm start 
+
+(깃에 올리지 말것 : app/node_modules, contract/build)
+
+9. 가나슈랑 메타마스크 연결
+
+10. 메타마스크랑 해당 Dapp 페이지 연결
+
+11. 연결 확인 후 테스트 진행

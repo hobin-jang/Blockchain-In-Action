@@ -1,0 +1,5 @@
+# 불필요
+app/node_modules/*
+contract/build/*
+
+
