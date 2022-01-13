@@ -1,0 +1,5 @@
+# 불필요
+ASK-app/node_modules/*
+ASK-contract/build/*
+
+
